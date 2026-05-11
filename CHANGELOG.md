@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.11] - 2026-05-11
+
+### Fixed
+- Marked `homebridge` peer dependency as optional (`peerDependenciesMeta`) to prevent npm v7+ from auto-installing it alongside the plugin
+
+---
+
 ## [1.1.10] - 2026-04-27
 
 ### Security

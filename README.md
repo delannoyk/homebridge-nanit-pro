@@ -173,6 +173,9 @@ To use motion as a HomeKit automation trigger, set up a Home automation on the M
 
 ## Changelog
 
+### v1.1.11
+- Fix: marked `homebridge` peer dependency as optional to prevent npm v7+ from auto-installing it alongside the plugin
+
 ### v1.1.10
 - Security: updated `protobufjs` to 7.5.5 (critical arbitrary code execution — GHSA-xq3m-2v4x-88gg)
 - Security: resolved high-severity `lodash` and `path-to-regexp` vulnerabilities in the `node-media-server` dependency tree
