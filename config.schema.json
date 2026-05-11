@@ -10,14 +10,12 @@
       "name": {
         "title": "Name",
         "type": "string",
-        "default": "Nanit Cameras",
-        "required": true
+        "default": "Nanit Cameras"
       },
       "email": {
         "title": "Nanit Account Email",
         "type": "string",
         "format": "email",
-        "required": true,
         "placeholder": "your@email.com"
       },
       "password": {
